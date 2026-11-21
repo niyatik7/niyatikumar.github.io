@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Niyati Kumar | Computer Engineering @ Georgia Tech</title>
   <meta name="description" content="Portfolio of Niyati Kumar - Computer Engineering student at Georgia Tech concentrating in Cybersecurity, Computer Hardware, and Autonomous Robotics." />
-  <link rel="stylesheet" href="style.css?v=10" />
+  <link rel="stylesheet" href="style.css?v=11" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -21,7 +21,7 @@
       </a>
       <nav class="nav-menu">
         <a href="#about">About</a>
-        <a href="#documents">Document Hub</a>
+        <a href="#resume">Resume</a>
         <a href="#vision">Career Vision</a>
         <a href="#projects">Projects</a>
         <a href="#contact" class="nav-cta">Get in Touch</a>
@@ -59,9 +59,9 @@
                 Explore Engineering Work
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
               </a>
-              <a href="#documents" class="btn btn-secondary">
+              <a href="#resume" class="btn btn-secondary">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
-                Document Hub
+                View Resume
               </a>
             </div>
 
@@ -121,30 +121,10 @@
 
         </div>
 
-        <!-- Metrics & Impact Counter Bar -->
-        <div class="metrics-bar">
-          <div class="metric-item">
-            <span class="metric-num">4.0</span>
-            <span class="metric-label">GPA · 31 Credit Hours Transferred from UGA</span>
-          </div>
-          <div class="metric-item">
-            <span class="metric-num">2 Yrs</span>
-            <span class="metric-label">Lead Programmer · FTC Team #15173</span>
-          </div>
-          <div class="metric-item">
-            <span class="metric-num">28 Teams</span>
-            <span class="metric-label">Western Georgia League Tournament Hosted</span>
-          </div>
-          <div class="metric-item">
-            <span class="metric-num">Summer '27</span>
-            <span class="metric-label">Targeting Software, Hardware &amp; Embedded Internships</span>
-          </div>
-        </div>
-
       </div>
     </section>
 
-    <!-- About Section (Editorial Split Bento) -->
+    <!-- About Section (Editorial Split Bento with Authentic Team Photo) -->
     <section id="about" class="section">
       <div class="container">
         
@@ -167,8 +147,18 @@
               In the medical device industry, I interned at <strong>FusMobile</strong> in Alpharetta, GA, working on High-Intensity Focused Ultrasound (HIFU) systems for non-invasive chronic pain treatment. I performed precision micro-soldering on circuit boards, mapped digital schematics, and maintained medical-grade hardware standards.
             </p>
             <p>
-              After completing 31 credit hours with a <strong>4.0 GPA at the University of Georgia</strong>, I transferred to <strong>Georgia Tech</strong> to specialize in <strong>Cybersecurity</strong> and <strong>Computer Hardware &amp; Emerging Architectures</strong>. Today, I'm pairing combinational/sequential logic design and circuit simulation with my background in robotics, actively preparing for high-impact software, hardware, and embedded systems engineering roles.
+              After completing foundational engineering coursework at the <strong>University of Georgia</strong>, I transferred to <strong>Georgia Tech</strong> to specialize in <strong>Cybersecurity</strong> and <strong>Computer Hardware &amp; Emerging Architectures</strong>. Today, I'm pairing combinational/sequential logic design and circuit simulation with my background in robotics, actively preparing for high-impact software, hardware, and embedded systems engineering roles.
             </p>
+
+            <!-- Embedded Authentic Team Picture -->
+            <figure class="about-figure">
+              <div class="figure-img-wrap">
+                <img src="images/team-eagles.jpg" alt="Milton Robotic Eagles FTC #15173 in the competition pit" />
+              </div>
+              <figcaption>
+                Team 15173 pit setup at the Georgia FTC State Championship finals
+              </figcaption>
+            </figure>
           </div>
 
           <!-- Competencies & Focus Tiles -->
@@ -236,38 +226,29 @@
       </div>
     </section>
 
-    <!-- Interactive Technical Document & Resume Hub -->
-    <section id="documents" class="section">
+    <!-- Dedicated Resume Section -->
+    <section id="resume" class="section">
       <div class="container">
         
         <div class="section-header">
-          <span class="section-kicker">Interactive Workstation</span>
-          <h2 class="section-title">Technical Document &amp; Resume Hub</h2>
-          <p class="section-subtitle">Toggle seamlessly between my formal academic resume and the 17-page competitive robotics engineering portfolio.</p>
+          <span class="section-kicker">Curriculum Vitae</span>
+          <h2 class="section-title">Academic &amp; Technical Resume</h2>
         </div>
 
-        <div class="hub-wrapper">
-          <div class="hub-controls-bar">
+        <div class="resume-card-wrapper">
+          <div class="resume-controls-bar">
             
-            <!-- Document Switcher Tabs -->
-            <div class="hub-tabs-group" role="tablist">
-              <button class="hub-tab-btn active" id="tab-resume" onclick="switchDoc('resume')">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
-                Resume (Niyati P. Kumar)
-              </button>
-              <button class="hub-tab-btn" id="tab-robotics" onclick="switchDoc('robotics')">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="10" rx="2"></rect><circle cx="12" cy="5" r="2"></circle><path d="M12 7v4"></path><line x1="8" y1="16" x2="8" y2="16"></line><line x1="16" y1="16" x2="16" y2="16"></line></svg>
-                Robotic Eagles Portfolio (17 Pages)
-              </button>
+            <div class="resume-meta">
+              <span class="resume-status-dot"></span>
+              <span class="resume-title-text">Niyati_Kumar_Resume.pdf</span>
             </div>
 
-            <!-- Dynamic Action Controls -->
-            <div class="hub-actions">
-              <a href="resume.pdf" id="doc-open-btn" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+            <div class="resume-actions">
+              <a href="resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
                 Open in Tab
               </a>
-              <a href="resume.pdf" id="doc-download-btn" download="Niyati_Kumar_Resume.pdf" class="btn btn-primary btn-sm">
+              <a href="resume.pdf" download="Niyati_Kumar_Resume.pdf" class="btn btn-primary btn-sm">
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
                 Download PDF
               </a>
@@ -276,15 +257,15 @@
           </div>
 
           <!-- Document Frame Viewport -->
-          <div class="hub-frame-container">
+          <div class="resume-frame-container">
             <iframe 
-              id="hub-iframe"
+              id="resume-iframe"
               src="resume.pdf#navpanes=0&view=FitH" 
-              class="hub-iframe" 
-              title="Interactive Technical Document Viewport">
+              class="resume-iframe" 
+              title="Niyati P. Kumar Academic and Technical Resume">
               <p class="resume-fallback-msg">
                 Your browser does not support embedded PDFs. 
-                <a href="resume.pdf" download id="fallback-download-link">Click here to download</a>.
+                <a href="resume.pdf" download="Niyati_Kumar_Resume.pdf">Click here to download Niyati's resume PDF</a>.
               </p>
             </iframe>
           </div>
@@ -392,7 +373,7 @@
           <p class="section-subtitle">Deep dive into competitive robotics control software, medical device circuit engineering, and digital computer architecture.</p>
         </div>
 
-        <!-- Flagship 1: Milton Robotic Eagles FTC -->
+        <!-- Flagship 1: Milton Robotic Eagles FTC with Live Arena Photo Banner -->
         <article class="flagship-card">
           <div class="flagship-header">
             <div>
@@ -405,6 +386,17 @@
           <p class="flagship-lead">
             Directed the complete event-driven Java software stack and autonomous control systems for competitive FTC robot ("In Too Deep"). Replaced Pure Pursuit with a point-based waypoint pathing algorithm, integrated 4D cosine similarity color detection, implemented 3-wheel odometry localization, and developed lift power-draw stall monitoring—earning the FTC Motivate Award and 6th place at the 2024 State Championship.
           </p>
+
+          <!-- Authentic Live Competition Match Action Image -->
+          <figure class="media-figure-card">
+            <div class="media-img-wrap">
+              <img src="images/robot-competition.jpg" alt="Milton Robotic Eagles competition robot in live match arena" />
+            </div>
+            <figcaption>
+              <span class="caption-tag-pill">Match Telemetry</span>
+              Robotic Eagles #15173 competition robot ("In Too Deep") executing autonomous navigation and specimen scoring on the FTC field.
+            </figcaption>
+          </figure>
 
           <div class="flagship-breakdown-grid">
             <div class="breakdown-col">
@@ -485,12 +477,12 @@
           </div>
         </article>
 
-        <!-- Subsystems Hardware Split Card -->
+        <!-- Subsystems Hardware Split Card with Arena Photo -->
         <div class="subsystems-split-card">
           <div>
             <span class="section-kicker" style="margin-bottom: 0.4rem;">Kinematics &amp; Hardware · Team #15173</span>
             <h3 class="flagship-title" style="margin-top: 0.25rem;">Robot "In Too Deep": Subsystem Engineering</h3>
-            <p style="color: var(--text-secondary); font-size: 0.98rem; line-height: 1.65; margin: 1rem 0 1.5rem;">
+            <p style="color: var(--text-secondary); font-size: 0.98rem; line-height: 1.65; margin: 1rem 0 1.25rem;">
               Engineered the integrated electromechanical subsystems for a compact 17x14x16.5 inch competition robot featuring a double-slide architecture, custom GoBilda mecanum drivetrain, 3-wheel odometry pods, an active compliant intake, and a dual-servo scoring arm.
             </p>
 
@@ -499,6 +491,16 @@
               <li><strong>Gear-Driven Arm &amp; Wrist:</strong> Implemented a 1:1.2 gear ratio (40T gold to 48T silver) powered by dual servos for elbow rotation, paired with a 3D-printed geared wrist for non-optimal angle clipping.</li>
               <li><strong>Two-Stage Compliant Intake:</strong> Built an active intake using compliant wheels and 3D-printed boot wheels driven by custom belts, eliminating sample flipping during pickup.</li>
             </ul>
+
+            <!-- Robot In Testing Photo Preview -->
+            <figure class="subsystems-figure">
+              <div class="figure-img-wrap">
+                <img src="images/robot-intransit.jpg" alt="Robot 'In Too Deep' in arena with dual linear slides extended" />
+              </div>
+              <figcaption>
+                Robot "In Too Deep" during testing with dual linear slides and extendable intake deployed.
+              </figcaption>
+            </figure>
 
             <div style="display: flex; flex-wrap: wrap; gap: 0.45rem; margin-top: 1.5rem;">
               <span class="chip highlight-violet">Mechanical Subsystems</span>
@@ -524,10 +526,55 @@
               <li><strong>Sensors:</strong> RGBL color sensor + IMU gyroscope + drive encoders.</li>
               <li><strong>Philosophy:</strong> Built under KISS principles for maximum competition reliability.</li>
             </ul>
+
+            <!-- Internal Drivetrain Packaging Image -->
+            <figure class="hud-figure">
+              <div class="figure-img-wrap">
+                <img src="images/drivetrain-chassis.jpg" alt="GoBilda mecanum drivetrain chassis packaging" />
+              </div>
+              <figcaption>
+                GoBilda 435 RPM mecanum drive chassis &amp; packaging
+              </figcaption>
+            </figure>
           </div>
         </div>
 
-        <!-- Secondary Projects Deck (3 Cards) -->
+        <!-- 17-Page Comprehensive Robotics Engineering Portfolio Document -->
+        <article class="robotics-portfolio-card">
+          <div class="portfolio-card-header">
+            <div>
+              <span class="section-kicker" style="margin-bottom: 0.4rem;">Engineering Notebook · Team #15173</span>
+              <h3 class="flagship-title" style="margin-top: 0.25rem;">Milton Robotic Eagles: 17-Page Engineering Portfolio</h3>
+              <p style="color: var(--text-secondary); font-size: 0.98rem; line-height: 1.65; margin: 0.65rem 0 0;">
+                Comprehensive technical engineering notebook submitted for the Georgia FTC State Championship. Documents mechanical CAD iterations, 2-bar linkage torque analysis, 3-wheel odometry mathematics, autonomous point-based pathing, color sensor vector math, and team outreach initiatives.
+              </p>
+            </div>
+            <div class="portfolio-card-actions">
+              <a href="robotics-portfolio.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                Open Portfolio (PDF)
+              </a>
+              <a href="robotics-portfolio.pdf" download="Robotic_Eagles_15173_Portfolio.pdf" class="btn btn-primary btn-sm">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                Download Portfolio (17 Pages PDF)
+              </a>
+            </div>
+          </div>
+
+          <div class="portfolio-frame-container">
+            <iframe 
+              src="robotics-portfolio.pdf#navpanes=0&view=FitH" 
+              class="portfolio-iframe" 
+              title="Robotic Eagles FTC #15173 Complete 17-Page Engineering Portfolio">
+              <p class="resume-fallback-msg">
+                Your browser does not support embedded PDFs. 
+                <a href="robotics-portfolio.pdf" download="Robotic_Eagles_15173_Portfolio.pdf">Click here to download the 17-page robotics portfolio</a>.
+              </p>
+            </iframe>
+          </div>
+        </article>
+
+        <!-- Secondary Projects Deck (3 Cards with Real Project Images) -->
         <div class="projects-deck">
           
           <!-- Combinational & Sequential Digital Logic -->
@@ -562,6 +609,12 @@
 
           <!-- Math Honors Society Competition Problem Suite -->
           <article class="deck-card">
+            <figure class="deck-card-figure">
+              <div class="figure-img-wrap">
+                <img src="images/gt-invention-studio.jpg" alt="Georgia Tech Invention Studio maker space" />
+              </div>
+              <figcaption>Georgia Tech Invention Studio prototyping</figcaption>
+            </figure>
             <span class="card-org-badge">Math Honors Society · Mentorship</span>
             <h4 class="card-title">Mini-Mathlete Tournament Problem Suite</h4>
             <p class="card-desc">
@@ -625,40 +678,6 @@
   <script>
     // Auto-update copyright year
     document.getElementById('year').textContent = new Date().getFullYear();
-
-    // Interactive Document Hub Tab Switcher
-    function switchDoc(docType) {
-      const tabResume = document.getElementById('tab-resume');
-      const tabRobotics = document.getElementById('tab-robotics');
-      const iframe = document.getElementById('hub-iframe');
-      const openBtn = document.getElementById('doc-open-btn');
-      const downloadBtn = document.getElementById('doc-download-btn');
-      const fallbackLink = document.getElementById('fallback-download-link');
-
-      if (docType === 'resume') {
-        tabResume.classList.add('active');
-        tabRobotics.classList.remove('active');
-        iframe.src = 'resume.pdf#navpanes=0&view=FitH';
-        openBtn.href = 'resume.pdf';
-        downloadBtn.href = 'resume.pdf';
-        downloadBtn.download = 'Niyati_Kumar_Resume.pdf';
-        if (fallbackLink) {
-          fallbackLink.href = 'resume.pdf';
-          fallbackLink.download = 'Niyati_Kumar_Resume.pdf';
-        }
-      } else if (docType === 'robotics') {
-        tabRobotics.classList.add('active');
-        tabResume.classList.remove('active');
-        iframe.src = 'robotics-portfolio.pdf#navpanes=0&view=FitH';
-        openBtn.href = 'robotics-portfolio.pdf';
-        downloadBtn.href = 'robotics-portfolio.pdf';
-        downloadBtn.download = 'Robotic_Eagles_15173_Portfolio.pdf';
-        if (fallbackLink) {
-          fallbackLink.href = 'robotics-portfolio.pdf';
-          fallbackLink.download = 'Robotic_Eagles_15173_Portfolio.pdf';
-        }
-      }
-    }
   </script>
 </body>
 </html>
