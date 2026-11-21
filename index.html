@@ -4,270 +4,421 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Niyati Kumar | Computer Engineering @ Georgia Tech</title>
-  <meta name="description" content="Portfolio of Niyati Kumar - Computer Engineering student at Georgia Tech specializing in autonomous robotics, circuit design, and cybersecurity & hardware architectures." />
-  <link rel="stylesheet" href="style.css?v=6" />
+  <meta name="description" content="Portfolio of Niyati Kumar - Computer Engineering student at Georgia Tech concentrating in Cybersecurity, Computer Hardware, and Autonomous Robotics." />
+  <link rel="stylesheet" href="style.css?v=10" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- Header / Navigation -->
-  <header class="header">
-    <div class="container nav-container">
-      <a href="#hero" class="logo">
-        <span class="logo-indicator"></span>
+
+  <!-- Floating Glass Navigation Dock -->
+  <div class="header-wrapper">
+    <header class="floating-nav">
+      <a href="#hero" class="nav-brand">
+        <span class="brand-dot"></span>
         Niyati Kumar
       </a>
-      <nav class="nav-links">
+      <nav class="nav-menu">
         <a href="#about">About</a>
-        <a href="#resume">Resume</a>
-        <a href="#career-goals">Career Vision</a>
-        <a href="#project-feature">Features</a>
+        <a href="#documents">Document Hub</a>
+        <a href="#vision">Career Vision</a>
         <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <a href="#contact" class="nav-cta">Get in Touch</a>
       </nav>
-    </div>
-  </header>
+    </header>
+  </div>
 
   <main>
-    <!-- Hero Section -->
-    <section id="hero" class="hero-section">
-      <div class="container hero-layout">
-        <div class="hero-text">
-          <div class="hero-badge">
-            <span class="hero-badge-pulse"></span>
-            Georgia Tech Computer Engineering · U.S. Citizen
+    <!-- Hero Section (Editorial Bento Showcase) -->
+    <section id="hero" class="section hero-section">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Left Column: Bio & Value Proposition -->
+          <div class="hero-content">
+            <div class="status-badge">
+              <span class="pulse-dot"></span>
+              Georgia Tech Computer Engineering · U.S. Citizen
+            </div>
+            
+            <h1 class="hero-headline">
+              <span class="gradient-text">Niyati Kumar</span>
+            </h1>
+            
+            <h2 class="hero-tagline-text">
+              Autonomous Robotics, Circuit Design &amp; Emerging Hardware
+            </h2>
+            
+            <p class="hero-description">
+              Second-year Computer Engineering undergraduate at <strong>Georgia Tech</strong> concentrating in <strong>Cybersecurity</strong> and <strong>Computer Hardware &amp; Emerging Architectures</strong>. Seasoned in competitive robotics software architecture, precision PCB micro-soldering, and closed-loop control systems. Actively seeking a Summer 2027 internship in software, hardware, or embedded systems.
+            </p>
+            
+            <div class="hero-actions-group">
+              <a href="#projects" class="btn btn-primary">
+                Explore Engineering Work
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </a>
+              <a href="#documents" class="btn btn-secondary">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                Document Hub
+              </a>
+            </div>
+
+            <div class="hero-social-pills">
+              <a href="mailto:nkumar361@gatech.edu" class="social-pill" title="Send Email">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                nkumar361@gatech.edu
+              </a>
+              <a href="tel:770-371-7733" class="social-pill" title="Call">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                (770) 371-7733
+              </a>
+              <a href="https://www.linkedin.com/in/niyati-kumar-04aa92278/" target="_blank" rel="noopener noreferrer" class="social-pill" title="LinkedIn Profile">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                LinkedIn
+              </a>
+              <a href="https://github.com/niyatik7" target="_blank" rel="noopener noreferrer" class="social-pill" title="GitHub Profile">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                GitHub
+              </a>
+              <span class="social-pill">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                Atlanta / Milton, GA
+              </span>
+            </div>
           </div>
-          <h1 class="hero-name">Niyati Kumar</h1>
-          <h2 class="hero-tagline">Autonomous Robotics, Circuit Design &amp; Secure Architectures</h2>
-          <p class="hero-bio">
-            Undergraduate in Computer Engineering at Georgia Tech with a concentration in <strong>Cybersecurity</strong> and <strong>Computer Hardware &amp; Emerging Architectures</strong>. Experienced in competitive robotics control systems, precision circuit soldering, schematic design, and low-level embedded software.
-          </p>
-          <div class="hero-actions">
-            <a href="#projects" class="btn btn-primary">View Projects</a>
-            <a href="#resume" class="btn btn-secondary">Resume</a>
-            <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+
+          <!-- Right Column: Visual Portrait with Interactive Floating Badges -->
+          <div class="hero-visual-card">
+            <!-- Top Floating Badge -->
+            <div class="floating-badge badge-top">
+              <div class="badge-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line></svg>
+              </div>
+              <div class="badge-text">
+                <span class="badge-label">Georgia Tech</span>
+                <span class="badge-val">Cybersecurity &amp; Hardware</span>
+              </div>
+            </div>
+
+            <!-- Main Portrait Frame -->
+            <div class="portrait-frame">
+              <img src="portrait.jpg" alt="Niyati Kumar" class="hero-img" />
+            </div>
+
+            <!-- Bottom Floating Badge -->
+            <div class="floating-badge badge-bottom">
+              <div class="badge-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+              </div>
+              <div class="badge-text">
+                <span class="badge-label">Competitive Robotics</span>
+                <span class="badge-val">FTC Motivate Award &bull; 6th in State</span>
+              </div>
+            </div>
           </div>
-          <div class="hero-socials">
-            <a href="mailto:nkumar361@gatech.edu" title="Email">
-              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-              nkumar361@gatech.edu
-            </a>
-            <a href="tel:770-371-7733" title="Phone">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-              (770) 371-7733
-            </a>
-            <a href="https://www.linkedin.com/in/niyati-kumar-04aa92278/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
-              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
-              LinkedIn
-            </a>
-            <a href="https://github.com/niyatik7" target="_blank" rel="noopener noreferrer" title="GitHub">
-              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-              GitHub
-            </a>
-            <span class="location-badge">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-              Milton &bull; Atlanta, GA
-            </span>
+
+        </div>
+
+        <!-- Metrics & Impact Counter Bar -->
+        <div class="metrics-bar">
+          <div class="metric-item">
+            <span class="metric-num">4.0</span>
+            <span class="metric-label">GPA · 31 Credit Hours Transferred from UGA</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-num">2 Yrs</span>
+            <span class="metric-label">Lead Programmer · FTC Team #15173</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-num">28 Teams</span>
+            <span class="metric-label">Western Georgia League Tournament Hosted</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-num">Summer '27</span>
+            <span class="metric-label">Targeting Software, Hardware &amp; Embedded Internships</span>
           </div>
         </div>
 
-        <div class="hero-portrait-wrapper">
-          <div class="hero-portrait-ring">
-            <img src="portrait.jpg" alt="Niyati Kumar" class="hero-portrait" />
-          </div>
-        </div>
       </div>
     </section>
 
-    <!-- About Section -->
+    <!-- About Section (Editorial Split Bento) -->
     <section id="about" class="section">
       <div class="container">
-        <h2 class="section-title">About Me</h2>
-        <div class="about-full-content">
-          <p>
-            A lifelong curiosity about physical machines, electronics, and software led me to pursue computer engineering, where I am actively building hands-on robotics, circuitry, and embedded systems experience to achieve my goal of designing impactful technologies in the physical world.
-          </p>
-          <p>
-            Growing up with a drive to create and problem-solve showed me that engineering is the ultimate intersection of creative design and rigorous technical skill.
-          </p>
-          <p>
-            My passion crystallized during my two years as Lead Programmer for Milton Robotic Eagles FTC #15173. There, I directed event-based Java software architectures for our competition robots, architecting point-based pathing algorithms, 4D cosine similarity color detection, 3-wheel odometry math, and closed-loop PID control. That high-tempo competitive environment proved to me that real-world performance depends on the tight harmony between mechanical hardware and intelligent software—culminating in 6th place at the 2024 State Championship and the FTC Motivate Award.
-          </p>
-          <p>
-            In the medical device industry, I gained practical hardware laboratory experience as an Electrical Engineering Intern at FusMobile in Alpharetta, GA. Working on High-Intensity Focused Ultrasound (HIFU) devices for non-invasive chronic pain management, I executed precision component soldering on circuit boards, mapped schematics using digital circuit software, and maintained rigorous engineering workspaces.
-          </p>
-          <p>
-            My academic journey began at the University of Georgia, where I completed 31 credit hours with a 4.0 GPA while building foundational engineering skills ahead of my coursework. In Fall 2026, I transferred to Georgia Tech to specialize in Cybersecurity and Computer Hardware &amp; Emerging Architectures, where I am pairing theoretical logic design and circuit analysis with cutting-edge lab research.
-          </p>
-          <p>
-            Beyond technical development, I believe in empowering the next generation of engineers. Through the Math Honors Society, I spent three years tutoring middle school students in Algebra and Geometry and authored competition problem sets for the district Mini-Mathlete elementary tournament. With Team 15173, I hosted the Western Georgia League Tournament for 28 teams and mentored middle school students stepping into robotics.
-          </p>
-          <p>
-            My next step is securing a software, hardware, or embedded systems internship starting Summer 2027, where I can apply my skills in low-level programming, circuit analysis, and autonomous systems to production-grade engineering challenges. Long-term, my dream is to architect innovative hardware and embedded platforms that leave a lasting mark on the world.
-          </p>
+        
+        <div class="section-header">
+          <span class="section-kicker">Background &amp; Philosophy</span>
+          <h2 class="section-title">Bridging Code, Circuitry &amp; Physical Machines</h2>
+          <p class="section-subtitle">A journey through competitive robotics leadership, medical device prototyping, academic excellence, and low-level computer engineering.</p>
         </div>
+
+        <div class="about-bento">
+          <!-- Story Narrative Card -->
+          <div class="about-story-card">
+            <p>
+              My passion for engineering is driven by the thrill of building physical systems where intelligent software directly moves hardware. What started with hands-on mechanical building evolved into a deep fascination with embedded systems, microcontrollers, and computer architecture.
+            </p>
+            <p>
+              As <strong>Lead Programmer for Milton Robotic Eagles FTC #15173</strong> over two seasons, I led the development of our competition robot's autonomous and tele-op software stack. I replaced pure vector models with an agile point-based waypoint pathing algorithm, formulated a 4D cosine similarity vector classifier for color-based sample automation, and implemented 3-wheel odometry calculus. This work culminated in our team earning the <strong>FTC Motivate Award</strong> and placing <strong>6th in the Georgia State Championship</strong>.
+            </p>
+            <p>
+              In the medical device industry, I interned at <strong>FusMobile</strong> in Alpharetta, GA, working on High-Intensity Focused Ultrasound (HIFU) systems for non-invasive chronic pain treatment. I performed precision micro-soldering on circuit boards, mapped digital schematics, and maintained medical-grade hardware standards.
+            </p>
+            <p>
+              After completing 31 credit hours with a <strong>4.0 GPA at the University of Georgia</strong>, I transferred to <strong>Georgia Tech</strong> to specialize in <strong>Cybersecurity</strong> and <strong>Computer Hardware &amp; Emerging Architectures</strong>. Today, I'm pairing combinational/sequential logic design and circuit simulation with my background in robotics, actively preparing for high-impact software, hardware, and embedded systems engineering roles.
+            </p>
+          </div>
+
+          <!-- Competencies & Focus Tiles -->
+          <div class="about-competencies-card">
+            
+            <div class="comp-tile">
+              <h3 class="comp-title">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                Programming &amp; Software
+              </h3>
+              <div class="chips-cluster">
+                <span class="chip highlight-violet">Java (Intermediate)</span>
+                <span class="chip highlight-cyan">Python (Basic)</span>
+                <span class="chip">Kotlin (Basic)</span>
+                <span class="chip">Event-Based Architecture</span>
+                <span class="chip">Object-Oriented Design</span>
+              </div>
+            </div>
+
+            <div class="comp-tile">
+              <h3 class="comp-title">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line></svg>
+                Hardware &amp; Circuit Prototyping
+              </h3>
+              <div class="chips-cluster">
+                <span class="chip highlight-violet">Component Soldering</span>
+                <span class="chip highlight-cyan">Digital Circuit Modeling</span>
+                <span class="chip">Schematic Capture</span>
+                <span class="chip">Medical HIFU Hardware</span>
+                <span class="chip">Bench Testing &amp; Multimeters</span>
+              </div>
+            </div>
+
+            <div class="comp-tile">
+              <h3 class="comp-title">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                Robotics, Logic &amp; Sensors
+              </h3>
+              <div class="chips-cluster">
+                <span class="chip highlight-cyan">4D Cosine Similarity</span>
+                <span class="chip highlight-violet">3-Wheel Odometry</span>
+                <span class="chip">PID Control</span>
+                <span class="chip">Combinational Logic</span>
+                <span class="chip">Sequential State Machines</span>
+              </div>
+            </div>
+
+            <div class="comp-tile">
+              <h3 class="comp-title">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                Spoken Languages &amp; Leadership
+              </h3>
+              <div class="chips-cluster">
+                <span class="chip">English (Fluent)</span>
+                <span class="chip">Hindi/Urdu (Conversational)</span>
+                <span class="chip">Spanish (Familiar)</span>
+                <span class="chip highlight-violet">28-Team Tournament Host</span>
+                <span class="chip highlight-cyan">Math Honors Tutor</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
       </div>
     </section>
 
-    <!-- Resume Section -->
-    <section id="resume" class="section">
-      <div class="resume-fullwidth-wrapper">
-        <div class="resume-embed-container">
-          <div class="resume-embed-header">
-            <div>
-              <h2 class="resume-embed-title">Resume</h2>
-              <p class="resume-embed-subtitle">Computer Engineering @ Georgia Tech &bull; Cybersecurity &amp; Hardware</p>
+    <!-- Interactive Technical Document & Resume Hub -->
+    <section id="documents" class="section">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-kicker">Interactive Workstation</span>
+          <h2 class="section-title">Technical Document &amp; Resume Hub</h2>
+          <p class="section-subtitle">Toggle seamlessly between my formal academic resume and the 17-page competitive robotics engineering portfolio.</p>
+        </div>
+
+        <div class="hub-wrapper">
+          <div class="hub-controls-bar">
+            
+            <!-- Document Switcher Tabs -->
+            <div class="hub-tabs-group" role="tablist">
+              <button class="hub-tab-btn active" id="tab-resume" onclick="switchDoc('resume')">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                Resume (Niyati P. Kumar)
+              </button>
+              <button class="hub-tab-btn" id="tab-robotics" onclick="switchDoc('robotics')">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="10" rx="2"></rect><circle cx="12" cy="5" r="2"></circle><path d="M12 7v4"></path><line x1="8" y1="16" x2="8" y2="16"></line><line x1="16" y1="16" x2="16" y2="16"></line></svg>
+                Robotic Eagles Portfolio (17 Pages)
+              </button>
             </div>
-            <div class="resume-embed-actions">
-              <a href="resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 6px;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-                Open in New Tab
+
+            <!-- Dynamic Action Controls -->
+            <div class="hub-actions">
+              <a href="resume.pdf" id="doc-open-btn" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                Open in Tab
               </a>
-              <a href="resume.pdf" download="Niyati_Kumar_Resume.pdf" class="btn btn-primary btn-sm">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 6px;"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              <a href="resume.pdf" id="doc-download-btn" download="Niyati_Kumar_Resume.pdf" class="btn btn-primary btn-sm">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
                 Download PDF
               </a>
             </div>
+
           </div>
-          <div class="resume-frame-wrapper">
+
+          <!-- Document Frame Viewport -->
+          <div class="hub-frame-container">
             <iframe 
+              id="hub-iframe"
               src="resume.pdf#navpanes=0&view=FitH" 
-              class="resume-iframe" 
-              title="Niyati Kumar Resume">
+              class="hub-iframe" 
+              title="Interactive Technical Document Viewport">
               <p class="resume-fallback-msg">
                 Your browser does not support embedded PDFs. 
-                <a href="resume.pdf" download>Click here to download the resume</a>.
+                <a href="resume.pdf" download id="fallback-download-link">Click here to download</a>.
               </p>
             </iframe>
           </div>
         </div>
+
       </div>
     </section>
 
-    <!-- Career Vision & Technical Roadmap Section -->
-    <section id="career-goals" class="section">
+    <!-- Career Vision & Technical Roadmap -->
+    <section id="vision" class="section">
       <div class="container">
-        <h2 class="section-title">Career Vision &amp; Technical Roadmap</h2>
         
-        <div class="goals-intro">
-          <p>
-            My engineering ambition centers on the nexus of <strong>Autonomous Robotics</strong>, <strong>Hardware Security</strong>, and <strong>Embedded Systems</strong>. Rather than treating hardware circuits, firmware, and high-level control in silos, I focus on building resilient physical platforms where microarchitectural trust, deterministic sensor fusion, and robust electronics operate in lockstep.
-          </p>
-          <p>
-            Combining my competitive robotics background with Georgia Tech's rigorous Computer Engineering curriculum, my strategic roadmap outlines four key milestones:
-          </p>
+        <div class="section-header">
+          <span class="section-kicker">Strategic Roadmap</span>
+          <h2 class="section-title">Career Vision &amp; Technical Milestones</h2>
+          <p class="section-subtitle">Bridging cybersecurity, embedded firmware, and physical robotics into a unified, high-integrity engineering discipline.</p>
         </div>
 
         <div class="roadmap-grid">
+          
           <!-- Milestone 01 -->
-          <div class="roadmap-card">
-            <div class="roadmap-top">
-              <span class="roadmap-num">01</span>
-              <span class="roadmap-status">Current Focus</span>
+          <div class="roadmap-tile">
+            <div class="tile-top">
+              <span class="tile-number">01</span>
+              <span class="tile-time">Current Focus</span>
             </div>
-            <h3 class="roadmap-title">Hardware Security &amp; Emerging Architectures</h3>
-            <p class="roadmap-desc">
-              Mastering combinational and sequential digital design, microarchitectural security, cryptographic acceleration, and hardware-software verification at Georgia Tech. Exploring how physical hardware can inherently enforce memory safety and side-channel resilience from the gate level up.
+            <h3 class="tile-title">Hardware Security &amp; Emerging Architectures</h3>
+            <p class="tile-desc">
+              Building rigorous depth in combinational and sequential digital systems, microarchitectural security, cryptographic acceleration, and hardware-software verification at Georgia Tech. Investigating how hardware primitives can inherently guarantee memory safety and resist physical side-channel vulnerabilities.
             </p>
-            <div class="roadmap-tags">
-              <span class="tag tag-accent">Digital Logic Design</span>
-              <span class="tag tag-accent">Computer Architecture</span>
-              <span class="tag tag-cyan">Hardware Security</span>
-              <span class="tag tag-cyan">Data-Path Verification</span>
+            <div class="tile-tags">
+              <span class="chip highlight-violet">Digital Logic Design</span>
+              <span class="chip highlight-cyan">Hardware Security</span>
+              <span class="chip">Computer Architecture</span>
+              <span class="chip">Data-Path Verification</span>
             </div>
           </div>
 
           <!-- Milestone 02 -->
-          <div class="roadmap-card">
-            <div class="roadmap-top">
-              <span class="roadmap-num">02</span>
-              <span class="roadmap-status">2026 – 2027</span>
+          <div class="roadmap-tile">
+            <div class="tile-top">
+              <span class="tile-number">02</span>
+              <span class="tile-time">2026 – 2027</span>
             </div>
-            <h3 class="roadmap-title">Advanced Autonomous Control &amp; Sensor Fusion</h3>
-            <p class="roadmap-desc">
-              Scaling beyond high school robotics leadership into advanced multi-sensor integration: fusing IMUs, high-resolution optical encoders, and computer vision pipelines into deterministic, real-time control algorithms capable of sub-centimeter autonomous positioning under environmental uncertainty.
+            <h3 class="tile-title">Advanced Autonomous Control &amp; Sensor Fusion</h3>
+            <p class="tile-desc">
+              Scaling beyond competitive robotics into advanced multi-sensor integration: fusing IMU telemetry, high-resolution optical encoders, and live computer vision models into deterministic, low-latency control loops capable of sub-centimeter autonomous positioning under dynamic conditions.
             </p>
-            <div class="roadmap-tags">
-              <span class="tag tag-accent">Sensor Fusion</span>
-              <span class="tag tag-accent">Point-Based Pathing</span>
-              <span class="tag tag-cyan">Real-Time Control</span>
-              <span class="tag tag-cyan">Robotics Telemetry</span>
+            <div class="tile-tags">
+              <span class="chip highlight-violet">Sensor Fusion</span>
+              <span class="chip highlight-cyan">Real-Time Control</span>
+              <span class="chip">Point-Based Pathing</span>
+              <span class="chip">Robotics Telemetry</span>
             </div>
           </div>
 
           <!-- Milestone 03 -->
-          <div class="roadmap-card">
-            <div class="roadmap-top">
-              <span class="roadmap-num">03</span>
-              <span class="roadmap-status">Summer 2027 Target</span>
+          <div class="roadmap-tile">
+            <div class="tile-top">
+              <span class="tile-number">03</span>
+              <span class="tile-time">Summer 2027 Target</span>
             </div>
-            <h3 class="roadmap-title">Mission-Critical Industry Engineering Internship</h3>
-            <p class="roadmap-desc">
-              Securing a Software Engineering, Embedded Systems, or Hardware Engineering internship. Applying low-level C/C++ programming, schematic capture, and automated hardware-in-the-loop (HIL) testing benches to production environments requiring absolute reliability and safety standards.
+            <h3 class="tile-title">Mission-Critical Industry Engineering Internship</h3>
+            <p class="tile-desc">
+              Securing a Summer 2027 internship in Software, Hardware, or Embedded Systems Engineering. Bringing hands-on PCB soldering, low-level C/C++, automated hardware-in-the-loop (HIL) test suites, and production firmware standards to high-reliability commercial products.
             </p>
-            <div class="roadmap-tags">
-              <span class="tag tag-accent">Embedded C/C++</span>
-              <span class="tag tag-accent">Hardware-in-the-Loop</span>
-              <span class="tag tag-cyan">Test Automation</span>
-              <span class="tag tag-cyan">Systems Engineering</span>
+            <div class="tile-tags">
+              <span class="chip highlight-violet">Embedded C/C++</span>
+              <span class="chip highlight-cyan">Hardware-in-the-Loop</span>
+              <span class="chip">Test Automation</span>
+              <span class="chip">Systems Engineering</span>
             </div>
           </div>
 
           <!-- Milestone 04 -->
-          <div class="roadmap-card">
-            <div class="roadmap-top">
-              <span class="roadmap-num">04</span>
-              <span class="roadmap-status">Post-Graduation</span>
+          <div class="roadmap-tile">
+            <div class="tile-top">
+              <span class="tile-number">04</span>
+              <span class="tile-time">Post-Graduation</span>
             </div>
-            <h3 class="roadmap-title">Engineering Resilient Autonomous Platforms</h3>
-            <p class="roadmap-desc">
-              Stepping into full-time R&amp;D engineering roles across autonomous robotics, medical robotics, or secure embedded hardware architectures. Leading multidisciplinary teams through the complete product lifecycle—from schematic modeling and board bring-up to autonomous deployment.
+            <h3 class="tile-title">Engineering Resilient Autonomous Platforms</h3>
+            <p class="tile-desc">
+              Stepping into full-time R&amp;D engineering roles across autonomous robotics, medical robotics, or secure embedded hardware architectures. Leading multidisciplinary teams through the complete engineering cycle—from schematic design and board bring-up to autonomous deployment.
             </p>
-            <div class="roadmap-tags">
-              <span class="tag tag-accent">Robotics R&amp;D</span>
-              <span class="tag tag-accent">Secure Systems</span>
-              <span class="tag tag-cyan">Embedded Architectures</span>
-              <span class="tag tag-cyan">Full-Lifecycle Engineering</span>
+            <div class="tile-tags">
+              <span class="chip highlight-violet">Robotics R&amp;D</span>
+              <span class="chip highlight-cyan">Secure Systems</span>
+              <span class="chip">Embedded Architectures</span>
+              <span class="chip">Full-Lifecycle Hardware</span>
             </div>
           </div>
+
         </div>
 
       </div>
     </section>
 
-    <!-- Technical Project Feature 1: Milton Robotic Eagles -->
-    <section id="project-feature" class="section">
+    <!-- Project Showcase: Flagship Case Studies -->
+    <section id="projects" class="section">
       <div class="container">
-        <h2 class="section-title">Technical Project Feature: Robotic Eagles (FTC #15173)</h2>
+        
+        <div class="section-header">
+          <span class="section-kicker">Engineering Portfolio</span>
+          <h2 class="section-title">Featured Technical Case Studies</h2>
+          <p class="section-subtitle">Deep dive into competitive robotics control software, medical device circuit engineering, and digital computer architecture.</p>
+        </div>
 
-        <!-- Feature 1: Robotic Eagles -->
-        <div class="featured-project-card">
-          <div class="featured-project-header">
+        <!-- Flagship 1: Milton Robotic Eagles FTC -->
+        <article class="flagship-card">
+          <div class="flagship-header">
             <div>
-              <span class="project-badge">FIRST Tech Challenge &bull; Lead Programmer &bull; State Finalist</span>
-              <h3 class="featured-project-name">Robotic Eagles: Autonomous Navigation, Vision &amp; Subsystems</h3>
+              <span class="section-kicker" style="margin-bottom: 0.4rem;">FIRST Tech Challenge · Lead Programmer · Team #15173</span>
+              <h3 class="flagship-title">Robotic Eagles: Autonomous Navigation, Vision &amp; Subsystems</h3>
             </div>
-            <span class="item-date">Aug 2023 – May 2025</span>
+            <span class="tile-time">Aug 2023 – May 2025</span>
           </div>
 
-          <p class="featured-project-lead">
+          <p class="flagship-lead">
             Directed the complete event-driven Java software stack and autonomous control systems for competitive FTC robot ("In Too Deep"). Replaced Pure Pursuit with a point-based waypoint pathing algorithm, integrated 4D cosine similarity color detection, implemented 3-wheel odometry localization, and developed lift power-draw stall monitoring—earning the FTC Motivate Award and 6th place at the 2024 State Championship.
           </p>
 
-          <div class="featured-project-grid">
-            <div class="feature-col">
+          <div class="flagship-breakdown-grid">
+            <div class="breakdown-col">
               <h4>Autonomous Navigation &amp; Pathing Algorithms</h4>
-              <ul class="bullet-list">
+              <ul class="bullet-points">
                 <li><strong>Point-Based Waypoint Pathing:</strong> Replaced the vector-based Pure Pursuit system with an agile point-based pathing algorithm, utilizing customizable waypoint proximity thresholds and adjustable error tolerances for rapid non-critical traversal and millimeter-accurate final positioning.</li>
                 <li><strong>Field-Centric Mecanum Drive &amp; PID:</strong> Programmed field-centric driving for 96mm mecanum wheels driven 1:1 by GoBilda 435 RPM motors; integrated PID controllers into the drivetrain to adjust motor power continuously based on sensor feedback and eliminate drift.</li>
                 <li><strong>3-Wheel Odometry Localization:</strong> Designed custom 3D-printed spring-tensioned odometry pods using stretched surgical tubing; derived positional and angular equations from encoder values with calculus mentorship from Mr. Yang to ensure reliable autonomous tracking.</li>
               </ul>
             </div>
 
-            <div class="feature-col">
+            <div class="breakdown-col">
               <h4>Intake Automation, Vision &amp; Subsystem Dynamics</h4>
-              <ul class="bullet-list">
+              <ul class="bullet-points">
                 <li><strong>4D Cosine Similarity Color Detection:</strong> Formulated an advanced mathematical color classification algorithm in 4D vector space (RGBL: red, green, blue, and light intensity), computing cosine similarity against pre-determined vectors to automate sample intake and prevent alliance penalties.</li>
                 <li><strong>Lift Power-Draw Monitoring:</strong> Engineered dynamic current/power-draw spike monitoring on the 435 RPM string-driven linear slide lift to reliably detect when a specimen is hung on the high rung and automatically trigger claw release.</li>
                 <li><strong>2-Bar Linkage Extendo &amp; Active Intake:</strong> Modeled torque efficiency through stress analysis on horizontal 2-bar linkage arms; integrated compliant wheel intake with 3D-printed boot wheels and custom timing belts.</li>
@@ -275,88 +426,46 @@
             </div>
           </div>
 
-          <div class="featured-project-footer">
-            <div class="project-tags">
-              <span class="tag tag-accent">Java (FTC SDK)</span>
-              <span class="tag tag-accent">Point-Based Pathing</span>
-              <span class="tag tag-accent">4D Cosine Similarity</span>
-              <span class="tag tag-accent">3-Wheel Odometry</span>
-              <span class="tag tag-accent">PID Control</span>
-              <span class="tag tag-cyan">Mecanum Drivetrain</span>
-              <span class="tag tag-cyan">Power Draw Monitoring</span>
-              <span class="tag tag-cyan">State Machines</span>
-              <span class="tag tag-cyan">TensorFlow Lite</span>
-            </div>
+          <div class="flagship-footer">
+            <span class="chip highlight-violet">Java (FTC SDK)</span>
+            <span class="chip highlight-violet">Point-Based Pathing</span>
+            <span class="chip highlight-violet">4D Cosine Similarity</span>
+            <span class="chip highlight-violet">3-Wheel Odometry</span>
+            <span class="chip highlight-cyan">PID Control</span>
+            <span class="chip highlight-cyan">Mecanum Drivetrain</span>
+            <span class="chip highlight-cyan">Power Draw Monitoring</span>
+            <span class="chip">State Machines</span>
+            <span class="chip">TensorFlow Lite</span>
           </div>
-        </div>
-      </div>
+        </article>
 
-      <!-- Robotics Engineering Portfolio Embed -->
-      <div class="resume-fullwidth-wrapper presentation-fullwidth-wrapper">
-        <div class="resume-embed-container">
-          <div class="resume-embed-header">
+        <!-- Flagship 2: FusMobile Medical Ultrasound Device Circuitry -->
+        <article class="flagship-card">
+          <div class="flagship-header">
             <div>
-              <h3 class="resume-embed-title">Robotic Eagles Engineering Portfolio</h3>
-              <p class="resume-embed-subtitle">Milton High School &bull; FIRST Tech Challenge Team #15173 &bull; 17 Pages</p>
+              <span class="section-kicker" style="margin-bottom: 0.4rem;">FusMobile · Electrical Engineering Intern · Alpharetta, GA</span>
+              <h3 class="flagship-title">High-Intensity Focused Ultrasound (HIFU): Circuit Schematic Modeling &amp; Precision Assembly</h3>
             </div>
-            <div class="resume-embed-actions">
-              <a href="robotics-portfolio.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 6px;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-                Open in New Tab
-              </a>
-              <a href="robotics-portfolio.pdf" download="Robotic_Eagles_15173_Portfolio.pdf" class="btn btn-primary btn-sm">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 6px;"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-                Download PDF
-              </a>
-            </div>
-          </div>
-          <div class="resume-frame-wrapper presentation-frame-wrapper">
-            <iframe 
-              src="robotics-portfolio.pdf#navpanes=0&view=FitH" 
-              class="resume-iframe" 
-              loading="lazy"
-              title="Robotic Eagles Engineering Portfolio">
-              <p class="resume-fallback-msg">
-                Your browser does not support embedded PDFs. 
-                <a href="robotics-portfolio.pdf" download>Click here to download the engineering portfolio</a>.
-              </p>
-            </iframe>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Technical Project Feature 2: FusMobile Medical Ultrasound Device Circuitry -->
-    <section id="feature-salad-spinner" class="section">
-      <div class="container">
-        <h2 class="section-title">Technical Project Feature: Medical Device Circuit Prototyping</h2>
-
-        <div class="featured-project-card">
-          <div class="featured-project-header">
-            <div>
-              <span class="project-badge">FusMobile &bull; Electrical Engineering Intern &bull; Alpharetta, GA</span>
-              <h3 class="featured-project-name">High-Intensity Focused Ultrasound (HIFU): Circuit Schematic Modeling &amp; Precision Assembly</h3>
-            </div>
-            <span class="item-date">Aug 2023 – Oct 2023</span>
+            <span class="tile-time">Aug 2023 – Oct 2023</span>
           </div>
 
-          <p class="featured-project-lead">
+          <p class="flagship-lead">
             Contributed to the hardware prototyping and circuit assembly pipeline for novel non-invasive chronic pain treatment devices at FusMobile. Leveraged digital circuit schematic software to model signal paths and executed micro-soldering on physical circuit boards under medical device laboratory standards.
           </p>
 
-          <div class="featured-project-grid">
-            <div class="feature-col">
+          <div class="flagship-breakdown-grid">
+            <div class="breakdown-col">
               <h4>Schematic Modeling &amp; Circuit Mapping</h4>
-              <ul class="bullet-list">
+              <ul class="bullet-points">
                 <li><strong>Digital Circuit Capture:</strong> Designed and traced electrical circuit schematics using specialized digital design software to simulate signal integrity for ultrasound pulse delivery.</li>
                 <li><strong>Design Rule Verification:</strong> Verified trace clearances, power distribution routing, and passive component tolerances to protect sensitive transducer drive stages against voltage spikes.</li>
                 <li><strong>Engineering Documentation:</strong> Produced clean schematic references and component specifications to streamline multi-engineer board revisions.</li>
               </ul>
             </div>
 
-            <div class="feature-col">
+            <div class="breakdown-col">
               <h4>Precision Assembly &amp; Laboratory Operations</h4>
-              <ul class="bullet-list">
+              <ul class="bullet-points">
                 <li><strong>Micro-Soldering &amp; Board Handling:</strong> Hand-soldered discrete surface-mount and through-hole electrical components onto test boards with zero bridge defects under microscope inspection.</li>
                 <li><strong>Hardware Verification:</strong> Tested continuity and baseline component values using digital multimeters and power benches prior to board power-on.</li>
                 <li><strong>Component Taxonomy &amp; Workspace Architecture:</strong> Organized and classified inventory for hundreds of specialized medical-grade electronic parts, drastically accelerating lab assembly turnaround.</li>
@@ -364,202 +473,192 @@
             </div>
           </div>
 
-          <div class="featured-project-footer">
-            <div class="project-tags">
-              <span class="tag tag-accent">Digital Circuit Design</span>
-              <span class="tag tag-accent">Schematic Modeling</span>
-              <span class="tag tag-accent">Micro-Soldering</span>
-              <span class="tag tag-cyan">HIFU Ultrasound</span>
-              <span class="tag tag-cyan">Medical Hardware</span>
-              <span class="tag tag-cyan">Hardware Testing</span>
-              <span class="tag tag-cyan">Component Assembly</span>
-              <span class="tag tag-cyan">Laboratory Standards</span>
-            </div>
+          <div class="flagship-footer">
+            <span class="chip highlight-violet">Digital Circuit Design</span>
+            <span class="chip highlight-violet">Schematic Modeling</span>
+            <span class="chip highlight-violet">Micro-Soldering</span>
+            <span class="chip highlight-cyan">HIFU Ultrasound</span>
+            <span class="chip highlight-cyan">Medical Hardware</span>
+            <span class="chip highlight-cyan">Hardware Testing</span>
+            <span class="chip">Component Assembly</span>
+            <span class="chip">Laboratory Standards</span>
           </div>
-        </div>
-      </div>
-    </section>
+        </article>
 
-    <!-- Technical Projects Section -->
-    <section id="projects" class="section">
-      <div class="container">
-        <h2 class="section-title">Technical Projects</h2>
-
-        <!-- Robot Hardware Breakdown Feature (Split Card: Description on Left, Specifications Box on Right) -->
-        <div class="featured-project-card wall-detection-unified-card">
-          <div class="wall-detection-split">
-
-            <!-- Left Column: Project Description & Technical Breakdown -->
-            <div class="wall-detection-content">
-              <div class="featured-project-header">
-                <div>
-                  <span class="project-badge">Robotics Hardware &bull; FTC Team #15173</span>
-                  <h3 class="featured-project-name">Robot "In Too Deep": Subsystem Engineering</h3>
-                </div>
-                <span class="item-date">Sep 2024 – Jan 2025</span>
-              </div>
-
-              <p class="featured-project-lead">
-                Engineered the integrated electromechanical subsystems for a compact 17x14x16.5 inch competition robot featuring a double-slide architecture, custom GoBilda mecanum drivetrain, 3-wheel odometry pods, an active compliant intake, and a dual-servo scoring arm.
-              </p>
-
-              <div class="wall-detection-systems">
-                <div class="feature-col">
-                  <h4>Mechanical Kinematics &amp; Subsystems</h4>
-                  <ul class="bullet-list">
-                    <li><strong>2-Bar Linkage Extendo:</strong> Designed horizontal extension powered by dual servos with torque-optimized linkage angles, reducing mechanical strain while maximizing submersible reach.</li>
-                    <li><strong>Gear-Driven Arm &amp; Wrist:</strong> Implemented a 1:1.2 gear ratio (40T gold to 48T silver) powered by dual servos for elbow rotation, paired with a 3D-printed geared wrist for non-optimal angle clipping.</li>
-                  </ul>
-                </div>
-
-                <div class="feature-col">
-                  <h4>Active Intake &amp; Odometry Tracking</h4>
-                  <ul class="bullet-list">
-                    <li><strong>Two-Stage Compliant Intake:</strong> Built an active intake using compliant wheels and 3D-printed boot wheels driven by custom belts, eliminating sample flipping during pickup.</li>
-                    <li><strong>Spring-Tensioned Odometry:</strong> Fabricated 3D-printed 3-wheel odometry pods with stretched surgical tubing to maintain continuous floor contact for drift-free tracking.</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="featured-project-footer">
-                <div class="project-tags">
-                  <span class="tag tag-accent">Mechanical Subsystems</span>
-                  <span class="tag tag-accent">Kinematics</span>
-                  <span class="tag tag-accent">3D Printing</span>
-                  <span class="tag tag-cyan">3-Wheel Odometry</span>
-                  <span class="tag tag-cyan">2-Bar Linkage</span>
-                  <span class="tag tag-cyan">CAD Prototyping</span>
-                  <span class="tag tag-cyan">Hardware Testing</span>
-                </div>
-              </div>
-            </div>
-
-            <!-- Right Column: Engineering Specs Box (In Same Panel) -->
-            <div class="wall-detection-media">
-              <div class="wall-media-top">
-                <div class="wall-media-title-group">
-                  <span class="wall-media-badge">Hardware Architecture</span>
-                  <h4 class="wall-media-title">Robot Subsystem Specifications</h4>
-                </div>
-              </div>
-
-              <ul class="bullet-list" style="margin-top: 0.5rem; margin-bottom: 0.5rem;">
-                <li><strong>Dimensions:</strong> 17" x 14" x 16.5" compact competition chassis with low center-of-mass battery placement.</li>
-                <li><strong>Drivetrain:</strong> 4x GoBilda 435 RPM motors driving 96mm mecanum wheels in a 1:1 ratio.</li>
-                <li><strong>Localization:</strong> Custom 3-wheel odometry with stretched surgical tubing for consistent ground pressure.</li>
-                <li><strong>Lift Subsystem:</strong> String-driven linear slides powered by 435 RPM motors with 4 pre-programmed heights.</li>
-                <li><strong>Scoring Arm:</strong> Dual-servo 1:1.2 gear ratio arm with 3D-printed geared wrist degree-of-freedom.</li>
-                <li><strong>Sensors:</strong> RGBL color sensor (4D cosine similarity) + IMU gyroscope + drive encoders.</li>
-              </ul>
-
-              <p class="wall-video-note">
-                Designed under the KISS ("Keep It Simple, Stupid") philosophy prioritizing straightforward, robust mechanisms for maximum competition reliability.
-              </p>
-            </div>
-
-          </div>
-        </div>
-
-        <!-- Remaining Technical Projects Grid (Displayed Directly Below) -->
-        <div class="projects-grid">
-
-          <!-- Combinational & Sequential Digital Logic -->
-          <article class="project-card featured">
-            <div class="project-header">
-              <span class="project-badge">Georgia Tech &bull; Computer Engineering</span>
-              <span class="project-time">Aug 2026 – Present</span>
-            </div>
-            <h3 class="project-title">Combinational &amp; Sequential Digital Logic Architecture</h3>
-            <p class="project-desc">
-              Designing, simulating, and optimizing foundational computing data paths and control logic in digital design environments. Formulating Boolean minimization using Karnaugh maps, implementing multi-bit ALUs, multiplexers, and decoders, and architecting synchronous Mealy and Moore finite state machines using D flip-flops with rigorous setup/hold clock domain timing analysis.
+        <!-- Subsystems Hardware Split Card -->
+        <div class="subsystems-split-card">
+          <div>
+            <span class="section-kicker" style="margin-bottom: 0.4rem;">Kinematics &amp; Hardware · Team #15173</span>
+            <h3 class="flagship-title" style="margin-top: 0.25rem;">Robot "In Too Deep": Subsystem Engineering</h3>
+            <p style="color: var(--text-secondary); font-size: 0.98rem; line-height: 1.65; margin: 1rem 0 1.5rem;">
+              Engineered the integrated electromechanical subsystems for a compact 17x14x16.5 inch competition robot featuring a double-slide architecture, custom GoBilda mecanum drivetrain, 3-wheel odometry pods, an active compliant intake, and a dual-servo scoring arm.
             </p>
-            <div class="project-tags">
-              <span class="tag tag-accent">Digital Logic</span>
-              <span class="tag tag-accent">Combinational Design</span>
-              <span class="tag tag-cyan">Sequential Logic</span>
-              <span class="tag tag-cyan">State Machines</span>
-              <span class="tag tag-cyan">Timing Analysis</span>
+
+            <ul class="bullet-points">
+              <li><strong>2-Bar Linkage Extendo:</strong> Designed horizontal extension powered by dual servos with torque-optimized linkage angles, reducing mechanical strain while maximizing submersible reach.</li>
+              <li><strong>Gear-Driven Arm &amp; Wrist:</strong> Implemented a 1:1.2 gear ratio (40T gold to 48T silver) powered by dual servos for elbow rotation, paired with a 3D-printed geared wrist for non-optimal angle clipping.</li>
+              <li><strong>Two-Stage Compliant Intake:</strong> Built an active intake using compliant wheels and 3D-printed boot wheels driven by custom belts, eliminating sample flipping during pickup.</li>
+            </ul>
+
+            <div style="display: flex; flex-wrap: wrap; gap: 0.45rem; margin-top: 1.5rem;">
+              <span class="chip highlight-violet">Mechanical Subsystems</span>
+              <span class="chip highlight-cyan">3D Printing</span>
+              <span class="chip">3-Wheel Odometry</span>
+              <span class="chip">2-Bar Linkage</span>
+              <span class="chip">CAD Prototyping</span>
+            </div>
+          </div>
+
+          <!-- HUD Specs Container -->
+          <div class="specs-hud-box">
+            <h4 class="hud-title">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+              Hardware Specifications
+            </h4>
+            <ul class="specs-list">
+              <li><strong>Dimensions:</strong> 17" x 14" x 16.5" compact competition chassis.</li>
+              <li><strong>Drivetrain:</strong> 4x GoBilda 435 RPM motors, 96mm mecanum, 1:1 drive ratio.</li>
+              <li><strong>Localization:</strong> 3-wheel odometry with stretched surgical tubing for ground tension.</li>
+              <li><strong>Linear Slide Lift:</strong> 435 RPM string-driven lift with 4 pre-programmed heights.</li>
+              <li><strong>Scoring Arm:</strong> Dual-servo 1:1.2 gear ratio arm with 3D-printed geared wrist.</li>
+              <li><strong>Sensors:</strong> RGBL color sensor + IMU gyroscope + drive encoders.</li>
+              <li><strong>Philosophy:</strong> Built under KISS principles for maximum competition reliability.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Secondary Projects Deck (3 Cards) -->
+        <div class="projects-deck">
+          
+          <!-- Combinational & Sequential Digital Logic -->
+          <article class="deck-card">
+            <span class="card-org-badge">Georgia Tech · Computer Engineering</span>
+            <h4 class="card-title">Combinational &amp; Sequential Logic Architecture</h4>
+            <p class="card-desc">
+              Designing, simulating, and optimizing foundational computing data paths and control logic in digital design environments. Formulating Boolean minimization via K-maps, multi-bit ALUs, multiplexers, and synchronous Mealy/Moore state machines with setup/hold timing analysis.
+            </p>
+            <div style="display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: auto;">
+              <span class="chip highlight-violet">Digital Logic</span>
+              <span class="chip highlight-cyan">Sequential Circuits</span>
+              <span class="chip">State Machines</span>
+              <span class="chip">Timing Analysis</span>
             </div>
           </article>
 
           <!-- GT Bhamla Lab Frugal Scanning Microscope -->
-          <article class="project-card">
-            <div class="project-header">
-              <span class="project-badge">Georgia Tech Bhamla Lab &bull; Research</span>
-              <span class="project-time">2024 – 2025</span>
-            </div>
-            <h3 class="project-title">Frugal Scanning Microscope &amp; Research Collaboration</h3>
-            <p class="project-desc">
-              Collaborated with researchers at Georgia Tech's Bhamla Lab on frugal science instrumentation, collecting water samples using a novel scanning microscope system built with low-cost actuators and off-the-shelf components. Applied frugal engineering principles to maximize accessible data collection for underserved communities and adopted the SCRUM framework for disciplined team iteration.
+          <article class="deck-card">
+            <span class="card-org-badge">Georgia Tech Bhamla Lab · Research</span>
+            <h4 class="card-title">Frugal Scanning Microscope Collaboration</h4>
+            <p class="card-desc">
+              Collaborated with researchers at Georgia Tech's Bhamla Lab on frugal science instrumentation, collecting water samples using a novel scanning microscope built with low-cost actuators and off-the-shelf components. Applied the SCRUM framework to engineering team iterations.
             </p>
-            <div class="project-tags">
-              <span class="tag tag-accent">Frugal Science</span>
-              <span class="tag tag-accent">Microscopy</span>
-              <span class="tag tag-cyan">Actuators</span>
-              <span class="tag tag-cyan">SCRUM Framework</span>
-              <span class="tag tag-cyan">Research Collaboration</span>
+            <div style="display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: auto;">
+              <span class="chip highlight-violet">Frugal Science</span>
+              <span class="chip highlight-cyan">Microscopy</span>
+              <span class="chip">Actuators</span>
+              <span class="chip">SCRUM Workflow</span>
             </div>
           </article>
 
           <!-- Math Honors Society Competition Problem Suite -->
-          <article class="project-card">
-            <div class="project-header">
-              <span class="project-badge">Math Honors Society &bull; Leadership</span>
-              <span class="project-time">Aug 2022 – May 2025</span>
-            </div>
-            <h3 class="project-title">Mini-Mathlete Tournament Problem Suite &amp; Mentorship</h3>
-            <p class="project-desc">
-              Authored original competition math problem sets utilized in Milton High School's annual Mini-Mathlete tournament for elementary school students across the district. Coordinated personalized weekly lesson plans and practice materials for middle school students in Algebra 1, Algebra 2, and Geometry, cultivating systematic problem-solving intuition and logical reasoning.
+          <article class="deck-card">
+            <span class="card-org-badge">Math Honors Society · Mentorship</span>
+            <h4 class="card-title">Mini-Mathlete Tournament Problem Suite</h4>
+            <p class="card-desc">
+              Authored original competition math problem sets utilized in Milton High School's annual Mini-Mathlete tournament for elementary school students across the district. Coordinated personalized weekly lesson plans for middle school students in Algebra and Geometry.
             </p>
-            <div class="project-tags">
-              <span class="tag tag-accent">Mathematical Logic</span>
-              <span class="tag tag-accent">Problem Design</span>
-              <span class="tag tag-cyan">Curriculum Planning</span>
-              <span class="tag tag-cyan">1-on-1 Mentorship</span>
-              <span class="tag tag-cyan">STEM Outreach</span>
+            <div style="display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: auto;">
+              <span class="chip highlight-violet">Math Modeling</span>
+              <span class="chip highlight-cyan">Problem Design</span>
+              <span class="chip">Mentorship</span>
+              <span class="chip">STEM Outreach</span>
             </div>
           </article>
 
         </div>
+
       </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- Contact Hub Section -->
     <section id="contact" class="section">
-      <div class="container contact-container">
-        <h2 class="section-title">Get In Touch</h2>
-        <p class="contact-text">
-          I am actively seeking software, hardware, and embedded systems internship opportunities starting Summer 2027. Whether you have an opportunity or want to discuss robotics, circuit design, or computer architectures, feel free to reach out!
-        </p>
-        <div class="contact-links">
-          <a href="mailto:nkumar361@gatech.edu" class="btn btn-primary">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 6px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-            Email Me
-          </a>
-          <a href="tel:770-371-7733" class="btn btn-secondary">
-            (770) 371-7733
-          </a>
-          <a href="https://www.linkedin.com/in/niyati-kumar-04aa92278/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
-            LinkedIn
-          </a>
-          <a href="https://github.com/niyatik7" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
-            GitHub
-          </a>
+      <div class="container">
+        
+        <div class="contact-hub-card">
+          <span class="section-kicker">Connect With Me</span>
+          <h2 class="section-title">Let's Build Something Meaningful</h2>
+          <p class="contact-lead">
+            I am actively seeking software, hardware, and embedded systems internship opportunities for Summer 2027. Whether you have an internship opening or want to discuss robotics, circuit design, or computer architectures, I'd love to connect!
+          </p>
+          
+          <div class="contact-pills-row">
+            <a href="mailto:nkumar361@gatech.edu" class="btn btn-primary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              Email nkumar361@gatech.edu
+            </a>
+            <a href="tel:770-371-7733" class="btn btn-secondary">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              (770) 371-7733
+            </a>
+            <a href="https://www.linkedin.com/in/niyati-kumar-04aa92278/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+              LinkedIn
+            </a>
+            <a href="https://github.com/niyatik7" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              GitHub
+            </a>
+          </div>
         </div>
+
       </div>
     </section>
   </main>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container footer-content">
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
       <p>&copy; <span id="year"></span> Niyati Kumar &bull; Computer Engineering @ Georgia Institute of Technology</p>
     </div>
   </footer>
 
   <script>
-    // Auto-update year
+    // Auto-update copyright year
     document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Interactive Document Hub Tab Switcher
+    function switchDoc(docType) {
+      const tabResume = document.getElementById('tab-resume');
+      const tabRobotics = document.getElementById('tab-robotics');
+      const iframe = document.getElementById('hub-iframe');
+      const openBtn = document.getElementById('doc-open-btn');
+      const downloadBtn = document.getElementById('doc-download-btn');
+      const fallbackLink = document.getElementById('fallback-download-link');
+
+      if (docType === 'resume') {
+        tabResume.classList.add('active');
+        tabRobotics.classList.remove('active');
+        iframe.src = 'resume.pdf#navpanes=0&view=FitH';
+        openBtn.href = 'resume.pdf';
+        downloadBtn.href = 'resume.pdf';
+        downloadBtn.download = 'Niyati_Kumar_Resume.pdf';
+        if (fallbackLink) {
+          fallbackLink.href = 'resume.pdf';
+          fallbackLink.download = 'Niyati_Kumar_Resume.pdf';
+        }
+      } else if (docType === 'robotics') {
+        tabRobotics.classList.add('active');
+        tabResume.classList.remove('active');
+        iframe.src = 'robotics-portfolio.pdf#navpanes=0&view=FitH';
+        openBtn.href = 'robotics-portfolio.pdf';
+        downloadBtn.href = 'robotics-portfolio.pdf';
+        downloadBtn.download = 'Robotic_Eagles_15173_Portfolio.pdf';
+        if (fallbackLink) {
+          fallbackLink.href = 'robotics-portfolio.pdf';
+          fallbackLink.download = 'Robotic_Eagles_15173_Portfolio.pdf';
+        }
+      }
+    }
   </script>
 </body>
 </html>
